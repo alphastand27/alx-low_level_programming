@@ -1,11 +1,11 @@
 #include <stdio.h>
-/*entry point of program*/
+/*main.c*/
 int main(void)
 {
 	/*string initialization*/
-	char p[] = "\"Programming is like building a multilingual puzzle\n";
+	char p[] = "\"Programming is like building a multilingual puzzle";
 	
-	puts(p);
+	puts(stderr, p);
 	
 	return (0);
 }

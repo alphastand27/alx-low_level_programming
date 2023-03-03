@@ -21,12 +21,16 @@ while (*src)
 srclen++;
 
 if (n > srclen)
+{
 	n = srclen;
+}
 
 src = start;
 
 for (; i < n; i++)
+{
 	*dest++ = *src++;
+}
 
 return (temp);
 }
